@@ -10,3 +10,10 @@ val result = SshTunnel("STAGE_HOST", "USER", Option("PASSWORD_OR_KEY_PHRASE"), O
   // any processes ... 
 }
 ```
+
+# License
+
+Copyright (c) 2017 Kuchitama
+
+Released under the MIT license
+[http://opensource.org/licenses/mit-license.php](http://opensource.org/licenses/mit-license.php)
