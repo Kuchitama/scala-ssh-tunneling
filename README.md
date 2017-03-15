@@ -2,6 +2,16 @@
 
 # Usages
 
+## build.sbt
+```sbt
+resolvers += "jitpack" at "https://jitpack.io"
+
+...
+
+libraryDependencies += "com.github.Kuchitama" % "scala-ssh-tunneling" % "0.1.0"	
+```
+
+## Your Code
 ```scala
 import java.net.URL
 import com.github.kuchitama.ssh_tunneling.SshTunnel
